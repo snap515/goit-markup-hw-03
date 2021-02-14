@@ -1,0 +1,88 @@
+/* footer */
+
+:root {
+  --main: rgba(33, 33, 33, 1);
+  --secondary: rgba(117, 117, 117, 1);
+  --background-main: rgba(245, 244, 250, 1);
+  --dark-background: rgba(47, 48, 58, 1);
+  --blue: rgba(33, 150, 243, 1);
+  --white: rgba(255, 255, 255, 1);
+  --email-phone: rgba(255, 255, 255, 0.6);
+  --btn-boxshadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main);
+  background-color: var(--background-main);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.web-logo,
+.nav-item-current {
+  color: var(--blue);
+}
+
+.email-phone {
+  color: var(--secondary);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.email-phone:hover,
+.email-phone:focus {
+  color: var(--blue);
+}
+
+.footer {
+  background-color: var(--dark-background);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-email-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email-phone:hover,
+.footer-email-phone:focus {
+  color: var(--blue);
+}
