@@ -16,7 +16,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 /**
@@ -335,4 +335,18 @@ p {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* :-webkit-any(article, aside, nav, section) {
+  font-size: inherit;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
+img {
+  display: block;
+  max-width: 100%;
 }
