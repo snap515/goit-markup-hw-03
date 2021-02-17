@@ -85,6 +85,8 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  padding: 20px 24px 0px;
 }
 
 .type-of-work {
@@ -93,4 +95,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
