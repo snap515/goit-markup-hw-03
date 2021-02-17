@@ -295,8 +295,11 @@ summary {
 }
 
 ul,
-ol {
+ol,
+li {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -319,4 +322,17 @@ button:focus {
   text-decoration: none;
   border: none;
   outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
 }
