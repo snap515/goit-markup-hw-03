@@ -46,7 +46,7 @@ body {
   align-items: center;
   justify-content: space-between;
 
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
