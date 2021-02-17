@@ -45,6 +45,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  border: 1px solid #ececec;
 }
 
 .header-logo {
