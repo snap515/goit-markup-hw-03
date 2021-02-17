@@ -78,7 +78,8 @@ body {
   margin-left: 93px;
 }
 
-.nav-item:not(:nth-child(1)) {
+.nav-item:not(:nth-child(1)),
+.nav-item-current {
   margin-left: 50px;
 }
 
