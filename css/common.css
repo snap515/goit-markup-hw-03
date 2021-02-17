@@ -35,7 +35,7 @@ body {
   margin: 0 15px;
 }
 
-.container .header {
+.header .container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -65,10 +65,19 @@ body {
   justify-content: flex-start;
 }
 
+.header-logo,
+.nav-item a,
+.nav-item-current a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .nav-list-pages {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-left: 93px;
 }
 
 .nav-item:not(:nth-child(1)) {
