@@ -30,11 +30,20 @@ body {
   overflow: hidden;
 }
 
-.header {
+.container {
+  width: 1200px;
+  margin: 0 15px;
+}
+
+.container .header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -50,14 +59,41 @@ body {
   color: var(--blue);
 }
 
-.email-phone {
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-list-pages {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-item:not(:nth-child(1)) {
+  margin-left: 50px;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.contact-item {
   color: var(--secondary);
+}
+
+.contact-item:nth-child(2) {
+  margin-left: 50px;
 }
 
 .nav-item:hover,
 .nav-item:focus,
-.email-phone:hover,
-.email-phone:focus {
+.contact-item:hover,
+.contact-item:focus {
   color: var(--blue);
 }
 
