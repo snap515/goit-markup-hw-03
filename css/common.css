@@ -1,3 +1,5 @@
+/* footer */
+
 :root {
   --main: rgba(33, 33, 33, 1);
   --secondary: rgba(117, 117, 117, 1);
@@ -15,10 +17,6 @@ body {
   background-color: var(--background-main);
 }
 
-.page-header a {
-  padding: 32px 0px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -32,15 +30,7 @@ body {
   overflow: hidden;
 }
 
-.page-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
+.header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -55,46 +45,20 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 .web-logo,
 .nav-item-current {
   color: var(--blue);
 }
 
-.nav-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 93px;
-}
-
-.nav-item:not(:first-child) {
-  margin-left: 50px;
+.email-phone {
+  color: var(--secondary);
 }
 
 .nav-item:hover,
 .nav-item:focus,
-.contacts-item:hover,
-.contacts-item:focus {
+.email-phone:hover,
+.email-phone:focus {
   color: var(--blue);
-}
-
-.header-contacts {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-  color: var(--secondary);
-  font-weight: 400;
-}
-
-.contacts-item:nth-child(2) {
-  margin-left: 50px;
 }
 
 .footer {
