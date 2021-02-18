@@ -34,7 +34,7 @@
 
 /* section out features */
 .our-features {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 
 .our-features-list {
@@ -69,7 +69,7 @@
 /* sectio what do we do */
 
 .we-do {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 
 .we-do-title {
@@ -92,7 +92,7 @@
 
 /* section our team */
 .our-team {
-  padding: 94px 0;
+  padding: 94px 0px;
 }
 
 .our-team-list {
